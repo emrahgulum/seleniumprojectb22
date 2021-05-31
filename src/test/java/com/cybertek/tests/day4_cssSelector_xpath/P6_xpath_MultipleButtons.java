@@ -25,7 +25,7 @@ public class P6_xpath_MultipleButtons {
         //WebElement button1= driver.findElement(By.xpath("//button[.='Button 1']"));
 
         // locating using "onclick" attribute value with xpath locator
-        WebElement button1= driver.findElement(By.xpath("//button[@onclick='button1()']"));
+        WebElement button1 = driver.findElement(By.xpath("//button[@onclick='button1()']"));
 
         button1.click();
 
